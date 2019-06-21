@@ -1,0 +1,3094 @@
+@charset "UTF-8";
+@import url("font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic|Antic+Slab|Roboto|Luckiest+Guy|Maven+Pro|Montserrat&display=swap");
+@font-face {
+  font-family: 'Thirsty';
+  src: url("../css/ThirstyScriptBoldShadow-webfont.woff2") format("woff2"), url("../css/ThirstyScriptBoldShadow-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'anagramregular';
+  src: url("../css/Anagram-webfont.eot");
+  src: url("../css/Anagram-webfont.eot?#iefix") format("embedded-opentype"), url("../css/Anagram-webfont.woff2") format("woff2"), url("../css/Anagram-webfont.woff") format("woff"), url("../css/Anagram-webfont.ttf") format("truetype"), url("../css/Anagram-webfont.svg#anagramregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Arizonia';
+  src: url("../css/Arizonia-Regular.ttf") format("truetype"); }
+
+/*
+	Photon by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+/* line 56, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+html, body, div, span, applet, object,
+iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite,
+code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b,
+u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby,
+section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* line 75, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 80, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+body {
+  line-height: 1; }
+
+/* line 84, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 88, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+blockquote, q {
+  quotes: none; }
+  /* line 91, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none; }
+
+/* line 98, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 103, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+body {
+  -webkit-text-size-adjust: none; }
+
+/* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+mark {
+  background-color: transparent;
+  color: inherit; }
+
+/* line 112, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/* line 117, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+input, select, textarea {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none; }
+
+/* Basic */
+/* line 128, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+html {
+  box-sizing: border-box; }
+
+/* line 132, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+/* line 136, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+body {
+  background: #fff; }
+  /* line 141, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+    -moz-animation: none !important;
+    -webkit-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
+    -moz-transition: none !important;
+    -webkit-transition: none !important;
+    -ms-transition: none !important;
+    transition: none !important; }
+
+/* line 149, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+body, input, select, textarea {
+  color: #666;
+  font-family: "Antic Slab";
+  font-size: 16pt;
+  font-weight: 300;
+  line-height: 1.65em; }
+
+/* line 157, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+a {
+  -moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  color: inherit;
+  text-decoration: none; }
+  /* line 163, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  a:hover {
+    border-bottom-color: transparent !important;
+    color: #6bd4c8; }
+
+/* line 169, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+strong, b {
+  color: #555;
+  font-weight: 400; }
+
+/* line 174, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+em, i {
+  font-style: italic; }
+
+/* line 178, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+p {
+  margin: 0 0 1em 0; }
+
+/* line 182, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #555;
+  line-height: 1em;
+  margin: 0 0 0.5em 0; }
+  /* line 187, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: inherit;
+    text-decoration: none; }
+
+/* line 193, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+h1 {
+  font-size: 2.25em;
+  line-height: 1.35em; }
+
+/* line 198, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+h2 {
+  font-size: 2em;
+  line-height: 1.35em; }
+
+/* line 203, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+h3 {
+  font-size: 1.35em;
+  line-height: 1.5em; }
+
+/* line 208, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+h4 {
+  font-size: 1.25em;
+  line-height: 1.5em; }
+
+/* line 213, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+h5 {
+  font-size: 0.9em;
+  line-height: 1.5em; }
+
+/* line 218, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+h6 {
+  font-size: 0.7em;
+  line-height: 1.5em; }
+
+/* line 223, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+sub {
+  font-size: 0.8em;
+  position: relative;
+  top: 0.5em; }
+
+/* line 229, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+sup {
+  font-size: 0.8em;
+  position: relative;
+  top: -0.5em; }
+
+/* line 235, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+hr {
+  border: 0;
+  border-bottom: solid 1px rgba(144, 144, 144, 0.5);
+  margin: 1em 0; }
+  /* line 242, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  hr.major {
+    margin: 1.5em 0; }
+
+/* line 247, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+blockquote {
+  border-left: solid 4px rgba(144, 144, 144, 0.5);
+  font-style: italic;
+  margin: 0 0 1em 0;
+  padding: 0.5em 0 0.5em 2em; }
+
+/* line 254, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+code {
+  background: rgba(144, 144, 144, 0.075);
+  border-radius: 4px;
+  border: solid 1px rgba(144, 144, 144, 0.5);
+  font-family: "Courier New", monospace;
+  font-size: 0.9em;
+  margin: 0 0.25em;
+  padding: 0.25em 0.65em; }
+
+/* line 264, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+pre {
+  -webkit-overflow-scrolling: touch;
+  font-family: "Courier New", monospace;
+  font-size: 0.9em;
+  margin: 0 0 1em 0; }
+  /* line 270, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  pre code {
+    display: block;
+    line-height: 1.75em;
+    padding: 1em 1.5em;
+    overflow-x: auto; }
+
+/* line 278, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+.align-left {
+  text-align: left; }
+
+/* line 282, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+.align-center {
+  text-align: center; }
+
+/* line 286, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+.align-right {
+  text-align: right; }
+
+/* Container */
+/* line 292, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+.container {
+  margin: 0 auto;
+  max-width: calc(100% - 2em);
+  width: 60em; }
+  /* line 297, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  .container.xsmall {
+    width: 15em; }
+  /* line 301, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  .container.small {
+    width: 30em; }
+  /* line 305, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  .container.medium {
+    width: 45em; }
+  /* line 309, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  .container.large {
+    width: 75em; }
+  /* line 313, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  .container.xlarge {
+    width: 90em; }
+  /* line 317, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  .container.max {
+    width: 100%; }
+  @media screen and (max-width: 980px) {
+    /* line 292, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    .container {
+      max-width: 100% !important;
+      width: 100% !important; } }
+  @media screen and (max-width: 480px) {
+    /* line 292, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    .container {
+      max-width: calc(100% - 1.5em); } }
+
+/* Row */
+/* line 333, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  align-items: stretch; }
+  /* line 49, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+  .row > * {
+    box-sizing: border-box; }
+  /* line 56, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+  .row.gtr-uniform > * > :last-child {
+    margin-bottom: 0; }
+  /* line 63, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+  .row.aln-left {
+    justify-content: flex-start; }
+  /* line 67, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+  .row.aln-center {
+    justify-content: center; }
+  /* line 71, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+  .row.aln-right {
+    justify-content: flex-end; }
+  /* line 75, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+  .row.aln-top {
+    align-items: flex-start; }
+  /* line 79, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+  .row.aln-middle {
+    align-items: center; }
+  /* line 83, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+  .row.aln-bottom {
+    align-items: flex-end; }
+  /* line 101, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+  .row > .imp {
+    order: -1; }
+  /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+  .row > .col-1 {
+    width: 8.33333%; }
+  /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+  .row > .off-1 {
+    margin-left: 8.33333%; }
+  /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+  .row > .col-2 {
+    width: 16.66667%; }
+  /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+  .row > .off-2 {
+    margin-left: 16.66667%; }
+  /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+  .row > .col-3 {
+    width: 25%; }
+  /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+  .row > .off-3 {
+    margin-left: 25%; }
+  /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+  .row > .col-4 {
+    width: 33.33333%; }
+  /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+  .row > .off-4 {
+    margin-left: 33.33333%; }
+  /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+  .row > .col-5 {
+    width: 41.66667%; }
+  /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+  .row > .off-5 {
+    margin-left: 41.66667%; }
+  /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+  .row > .col-6 {
+    width: 50%; }
+  /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+  .row > .off-6 {
+    margin-left: 50%; }
+  /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+  .row > .col-7 {
+    width: 58.33333%; }
+  /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+  .row > .off-7 {
+    margin-left: 58.33333%; }
+  /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+  .row > .col-8 {
+    width: 66.66667%; }
+  /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+  .row > .off-8 {
+    margin-left: 66.66667%; }
+  /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+  .row > .col-9 {
+    width: 75%; }
+  /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+  .row > .off-9 {
+    margin-left: 75%; }
+  /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+  .row > .col-10 {
+    width: 83.33333%; }
+  /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+  .row > .off-10 {
+    margin-left: 83.33333%; }
+  /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+  .row > .col-11 {
+    width: 91.66667%; }
+  /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+  .row > .off-11 {
+    margin-left: 91.66667%; }
+  /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+  .row > .col-12 {
+    width: 100%; }
+  /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+  .row > .off-12 {
+    margin-left: 100%; }
+  /* line 126, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+  .row.gtr-0 {
+    margin-top: 0;
+    margin-left: 0em; }
+    /* line 130, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+    .row.gtr-0 > * {
+      padding: 0 0 0 0em; }
+    /* line 135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+    .row.gtr-0.gtr-uniform {
+      margin-top: 0em; }
+      /* line 138, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.gtr-0.gtr-uniform > * {
+        padding-top: 0em; }
+  /* line 126, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+  .row.gtr-25 {
+    margin-top: 0;
+    margin-left: -0.5em; }
+    /* line 130, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+    .row.gtr-25 > * {
+      padding: 0 0 0 0.5em; }
+    /* line 135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+    .row.gtr-25.gtr-uniform {
+      margin-top: -0.5em; }
+      /* line 138, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.gtr-25.gtr-uniform > * {
+        padding-top: 0.5em; }
+  /* line 126, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+  .row.gtr-50 {
+    margin-top: 0;
+    margin-left: -1em; }
+    /* line 130, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+    .row.gtr-50 > * {
+      padding: 0 0 0 1em; }
+    /* line 135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+    .row.gtr-50.gtr-uniform {
+      margin-top: -1em; }
+      /* line 138, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.gtr-50.gtr-uniform > * {
+        padding-top: 1em; }
+  /* line 126, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+  .row {
+    margin-top: 0;
+    margin-left: -2em; }
+    /* line 130, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+    .row > * {
+      padding: 0 0 0 2em; }
+    /* line 135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+    .row.gtr-uniform {
+      margin-top: -2em; }
+      /* line 138, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.gtr-uniform > * {
+        padding-top: 2em; }
+  /* line 126, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+  .row.gtr-150 {
+    margin-top: 0;
+    margin-left: -3em; }
+    /* line 130, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+    .row.gtr-150 > * {
+      padding: 0 0 0 3em; }
+    /* line 135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+    .row.gtr-150.gtr-uniform {
+      margin-top: -3em; }
+      /* line 138, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.gtr-150.gtr-uniform > * {
+        padding-top: 3em; }
+  /* line 126, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+  .row.gtr-200 {
+    margin-top: 0;
+    margin-left: -4em; }
+    /* line 130, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+    .row.gtr-200 > * {
+      padding: 0 0 0 4em; }
+    /* line 135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+    .row.gtr-200.gtr-uniform {
+      margin-top: -4em; }
+      /* line 138, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.gtr-200.gtr-uniform > * {
+        padding-top: 4em; }
+  @media screen and (max-width: 1680px) {
+    /* line 333, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      align-items: stretch; }
+      /* line 49, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > * {
+        box-sizing: border-box; }
+      /* line 56, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.gtr-uniform > * > :last-child {
+        margin-bottom: 0; }
+      /* line 63, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.aln-left {
+        justify-content: flex-start; }
+      /* line 67, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.aln-center {
+        justify-content: center; }
+      /* line 71, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.aln-right {
+        justify-content: flex-end; }
+      /* line 75, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.aln-top {
+        align-items: flex-start; }
+      /* line 79, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.aln-middle {
+        align-items: center; }
+      /* line 83, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.aln-bottom {
+        align-items: flex-end; }
+      /* line 101, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .imp-xlarge {
+        order: -1; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-1-xlarge {
+        width: 8.33333%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-1-xlarge {
+        margin-left: 8.33333%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-2-xlarge {
+        width: 16.66667%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-2-xlarge {
+        margin-left: 16.66667%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-3-xlarge {
+        width: 25%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-3-xlarge {
+        margin-left: 25%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-4-xlarge {
+        width: 33.33333%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-4-xlarge {
+        margin-left: 33.33333%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-5-xlarge {
+        width: 41.66667%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-5-xlarge {
+        margin-left: 41.66667%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-6-xlarge {
+        width: 50%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-6-xlarge {
+        margin-left: 50%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-7-xlarge {
+        width: 58.33333%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-7-xlarge {
+        margin-left: 58.33333%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-8-xlarge {
+        width: 66.66667%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-8-xlarge {
+        margin-left: 66.66667%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-9-xlarge {
+        width: 75%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-9-xlarge {
+        margin-left: 75%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-10-xlarge {
+        width: 83.33333%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-10-xlarge {
+        margin-left: 83.33333%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-11-xlarge {
+        width: 91.66667%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-11-xlarge {
+        margin-left: 91.66667%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-12-xlarge {
+        width: 100%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-12-xlarge {
+        margin-left: 100%; }
+      /* line 126, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.gtr-0 {
+        margin-top: 0;
+        margin-left: 0em; }
+        /* line 130, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-0 > * {
+          padding: 0 0 0 0em; }
+        /* line 135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-0.gtr-uniform {
+          margin-top: 0em; }
+          /* line 138, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+          .row.gtr-0.gtr-uniform > * {
+            padding-top: 0em; }
+      /* line 126, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.gtr-25 {
+        margin-top: 0;
+        margin-left: -0.5em; }
+        /* line 130, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-25 > * {
+          padding: 0 0 0 0.5em; }
+        /* line 135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-25.gtr-uniform {
+          margin-top: -0.5em; }
+          /* line 138, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+          .row.gtr-25.gtr-uniform > * {
+            padding-top: 0.5em; }
+      /* line 126, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.gtr-50 {
+        margin-top: 0;
+        margin-left: -1em; }
+        /* line 130, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-50 > * {
+          padding: 0 0 0 1em; }
+        /* line 135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-50.gtr-uniform {
+          margin-top: -1em; }
+          /* line 138, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+          .row.gtr-50.gtr-uniform > * {
+            padding-top: 1em; }
+      /* line 126, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row {
+        margin-top: 0;
+        margin-left: -2em; }
+        /* line 130, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row > * {
+          padding: 0 0 0 2em; }
+        /* line 135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-uniform {
+          margin-top: -2em; }
+          /* line 138, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+          .row.gtr-uniform > * {
+            padding-top: 2em; }
+      /* line 126, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.gtr-150 {
+        margin-top: 0;
+        margin-left: -3em; }
+        /* line 130, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-150 > * {
+          padding: 0 0 0 3em; }
+        /* line 135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-150.gtr-uniform {
+          margin-top: -3em; }
+          /* line 138, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+          .row.gtr-150.gtr-uniform > * {
+            padding-top: 3em; }
+      /* line 126, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.gtr-200 {
+        margin-top: 0;
+        margin-left: -4em; }
+        /* line 130, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-200 > * {
+          padding: 0 0 0 4em; }
+        /* line 135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-200.gtr-uniform {
+          margin-top: -4em; }
+          /* line 138, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+          .row.gtr-200.gtr-uniform > * {
+            padding-top: 4em; } }
+  @media screen and (max-width: 1140px) {
+    /* line 333, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      align-items: stretch; }
+      /* line 49, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > * {
+        box-sizing: border-box; }
+      /* line 56, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.gtr-uniform > * > :last-child {
+        margin-bottom: 0; }
+      /* line 63, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.aln-left {
+        justify-content: flex-start; }
+      /* line 67, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.aln-center {
+        justify-content: center; }
+      /* line 71, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.aln-right {
+        justify-content: flex-end; }
+      /* line 75, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.aln-top {
+        align-items: flex-start; }
+      /* line 79, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.aln-middle {
+        align-items: center; }
+      /* line 83, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.aln-bottom {
+        align-items: flex-end; }
+      /* line 101, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .imp-large {
+        order: -1; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-1-large {
+        width: 8.33333%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-1-large {
+        margin-left: 8.33333%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-2-large {
+        width: 16.66667%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-2-large {
+        margin-left: 16.66667%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-3-large {
+        width: 25%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-3-large {
+        margin-left: 25%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-4-large {
+        width: 33.33333%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-4-large {
+        margin-left: 33.33333%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-5-large {
+        width: 41.66667%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-5-large {
+        margin-left: 41.66667%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-6-large {
+        width: 50%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-6-large {
+        margin-left: 50%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-7-large {
+        width: 58.33333%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-7-large {
+        margin-left: 58.33333%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-8-large {
+        width: 66.66667%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-8-large {
+        margin-left: 66.66667%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-9-large {
+        width: 75%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-9-large {
+        margin-left: 75%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-10-large {
+        width: 83.33333%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-10-large {
+        margin-left: 83.33333%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-11-large {
+        width: 91.66667%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-11-large {
+        margin-left: 91.66667%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-12-large {
+        width: 100%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-12-large {
+        margin-left: 100%; }
+      /* line 126, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.gtr-0 {
+        margin-top: 0;
+        margin-left: 0em; }
+        /* line 130, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-0 > * {
+          padding: 0 0 0 0em; }
+        /* line 135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-0.gtr-uniform {
+          margin-top: 0em; }
+          /* line 138, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+          .row.gtr-0.gtr-uniform > * {
+            padding-top: 0em; }
+      /* line 126, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.gtr-25 {
+        margin-top: 0;
+        margin-left: -0.5em; }
+        /* line 130, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-25 > * {
+          padding: 0 0 0 0.5em; }
+        /* line 135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-25.gtr-uniform {
+          margin-top: -0.5em; }
+          /* line 138, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+          .row.gtr-25.gtr-uniform > * {
+            padding-top: 0.5em; }
+      /* line 126, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.gtr-50 {
+        margin-top: 0;
+        margin-left: -1em; }
+        /* line 130, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-50 > * {
+          padding: 0 0 0 1em; }
+        /* line 135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-50.gtr-uniform {
+          margin-top: -1em; }
+          /* line 138, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+          .row.gtr-50.gtr-uniform > * {
+            padding-top: 1em; }
+      /* line 126, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row {
+        margin-top: 0;
+        margin-left: -2em; }
+        /* line 130, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row > * {
+          padding: 0 0 0 2em; }
+        /* line 135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-uniform {
+          margin-top: -2em; }
+          /* line 138, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+          .row.gtr-uniform > * {
+            padding-top: 2em; }
+      /* line 126, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.gtr-150 {
+        margin-top: 0;
+        margin-left: -3em; }
+        /* line 130, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-150 > * {
+          padding: 0 0 0 3em; }
+        /* line 135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-150.gtr-uniform {
+          margin-top: -3em; }
+          /* line 138, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+          .row.gtr-150.gtr-uniform > * {
+            padding-top: 3em; }
+      /* line 126, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.gtr-200 {
+        margin-top: 0;
+        margin-left: -4em; }
+        /* line 130, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-200 > * {
+          padding: 0 0 0 4em; }
+        /* line 135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-200.gtr-uniform {
+          margin-top: -4em; }
+          /* line 138, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+          .row.gtr-200.gtr-uniform > * {
+            padding-top: 4em; } }
+  @media screen and (max-width: 980px) {
+    /* line 333, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      align-items: stretch; }
+      /* line 49, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > * {
+        box-sizing: border-box; }
+      /* line 56, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.gtr-uniform > * > :last-child {
+        margin-bottom: 0; }
+      /* line 63, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.aln-left {
+        justify-content: flex-start; }
+      /* line 67, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.aln-center {
+        justify-content: center; }
+      /* line 71, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.aln-right {
+        justify-content: flex-end; }
+      /* line 75, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.aln-top {
+        align-items: flex-start; }
+      /* line 79, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.aln-middle {
+        align-items: center; }
+      /* line 83, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.aln-bottom {
+        align-items: flex-end; }
+      /* line 101, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .imp-medium {
+        order: -1; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-1-medium {
+        width: 8.33333%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-1-medium {
+        margin-left: 8.33333%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-2-medium {
+        width: 16.66667%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-2-medium {
+        margin-left: 16.66667%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-3-medium {
+        width: 25%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-3-medium {
+        margin-left: 25%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-4-medium {
+        width: 33.33333%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-4-medium {
+        margin-left: 33.33333%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-5-medium {
+        width: 41.66667%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-5-medium {
+        margin-left: 41.66667%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-6-medium {
+        width: 50%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-6-medium {
+        margin-left: 50%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-7-medium {
+        width: 58.33333%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-7-medium {
+        margin-left: 58.33333%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-8-medium {
+        width: 66.66667%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-8-medium {
+        margin-left: 66.66667%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-9-medium {
+        width: 75%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-9-medium {
+        margin-left: 75%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-10-medium {
+        width: 83.33333%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-10-medium {
+        margin-left: 83.33333%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-11-medium {
+        width: 91.66667%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-11-medium {
+        margin-left: 91.66667%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-12-medium {
+        width: 100%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-12-medium {
+        margin-left: 100%; }
+      /* line 126, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.gtr-0 {
+        margin-top: 0;
+        margin-left: 0em; }
+        /* line 130, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-0 > * {
+          padding: 0 0 0 0em; }
+        /* line 135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-0.gtr-uniform {
+          margin-top: 0em; }
+          /* line 138, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+          .row.gtr-0.gtr-uniform > * {
+            padding-top: 0em; }
+      /* line 126, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.gtr-25 {
+        margin-top: 0;
+        margin-left: -0.5em; }
+        /* line 130, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-25 > * {
+          padding: 0 0 0 0.5em; }
+        /* line 135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-25.gtr-uniform {
+          margin-top: -0.5em; }
+          /* line 138, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+          .row.gtr-25.gtr-uniform > * {
+            padding-top: 0.5em; }
+      /* line 126, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.gtr-50 {
+        margin-top: 0;
+        margin-left: -1em; }
+        /* line 130, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-50 > * {
+          padding: 0 0 0 1em; }
+        /* line 135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-50.gtr-uniform {
+          margin-top: -1em; }
+          /* line 138, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+          .row.gtr-50.gtr-uniform > * {
+            padding-top: 1em; }
+      /* line 126, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row {
+        margin-top: 0;
+        margin-left: -2em; }
+        /* line 130, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row > * {
+          padding: 0 0 0 2em; }
+        /* line 135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-uniform {
+          margin-top: -2em; }
+          /* line 138, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+          .row.gtr-uniform > * {
+            padding-top: 2em; }
+      /* line 126, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.gtr-150 {
+        margin-top: 0;
+        margin-left: -3em; }
+        /* line 130, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-150 > * {
+          padding: 0 0 0 3em; }
+        /* line 135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-150.gtr-uniform {
+          margin-top: -3em; }
+          /* line 138, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+          .row.gtr-150.gtr-uniform > * {
+            padding-top: 3em; }
+      /* line 126, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.gtr-200 {
+        margin-top: 0;
+        margin-left: -4em; }
+        /* line 130, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-200 > * {
+          padding: 0 0 0 4em; }
+        /* line 135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-200.gtr-uniform {
+          margin-top: -4em; }
+          /* line 138, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+          .row.gtr-200.gtr-uniform > * {
+            padding-top: 4em; } }
+  @media screen and (max-width: 736px) {
+    /* line 333, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      align-items: stretch; }
+      /* line 49, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > * {
+        box-sizing: border-box; }
+      /* line 56, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.gtr-uniform > * > :last-child {
+        margin-bottom: 0; }
+      /* line 63, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.aln-left {
+        justify-content: flex-start; }
+      /* line 67, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.aln-center {
+        justify-content: center; }
+      /* line 71, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.aln-right {
+        justify-content: flex-end; }
+      /* line 75, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.aln-top {
+        align-items: flex-start; }
+      /* line 79, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.aln-middle {
+        align-items: center; }
+      /* line 83, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.aln-bottom {
+        align-items: flex-end; }
+      /* line 101, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .imp-small {
+        order: -1; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-1-small {
+        width: 8.33333%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-1-small {
+        margin-left: 8.33333%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-2-small {
+        width: 16.66667%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-2-small {
+        margin-left: 16.66667%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-3-small {
+        width: 25%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-3-small {
+        margin-left: 25%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-4-small {
+        width: 33.33333%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-4-small {
+        margin-left: 33.33333%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-5-small {
+        width: 41.66667%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-5-small {
+        margin-left: 41.66667%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-6-small {
+        width: 50%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-6-small {
+        margin-left: 50%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-7-small {
+        width: 58.33333%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-7-small {
+        margin-left: 58.33333%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-8-small {
+        width: 66.66667%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-8-small {
+        margin-left: 66.66667%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-9-small {
+        width: 75%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-9-small {
+        margin-left: 75%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-10-small {
+        width: 83.33333%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-10-small {
+        margin-left: 83.33333%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-11-small {
+        width: 91.66667%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-11-small {
+        margin-left: 91.66667%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-12-small {
+        width: 100%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-12-small {
+        margin-left: 100%; }
+      /* line 126, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.gtr-0 {
+        margin-top: 0;
+        margin-left: 0em; }
+        /* line 130, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-0 > * {
+          padding: 0 0 0 0em; }
+        /* line 135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-0.gtr-uniform {
+          margin-top: 0em; }
+          /* line 138, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+          .row.gtr-0.gtr-uniform > * {
+            padding-top: 0em; }
+      /* line 126, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.gtr-25 {
+        margin-top: 0;
+        margin-left: -0.5em; }
+        /* line 130, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-25 > * {
+          padding: 0 0 0 0.5em; }
+        /* line 135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-25.gtr-uniform {
+          margin-top: -0.5em; }
+          /* line 138, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+          .row.gtr-25.gtr-uniform > * {
+            padding-top: 0.5em; }
+      /* line 126, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.gtr-50 {
+        margin-top: 0;
+        margin-left: -1em; }
+        /* line 130, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-50 > * {
+          padding: 0 0 0 1em; }
+        /* line 135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-50.gtr-uniform {
+          margin-top: -1em; }
+          /* line 138, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+          .row.gtr-50.gtr-uniform > * {
+            padding-top: 1em; }
+      /* line 126, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row {
+        margin-top: 0;
+        margin-left: -2em; }
+        /* line 130, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row > * {
+          padding: 0 0 0 2em; }
+        /* line 135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-uniform {
+          margin-top: -2em; }
+          /* line 138, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+          .row.gtr-uniform > * {
+            padding-top: 2em; }
+      /* line 126, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.gtr-150 {
+        margin-top: 0;
+        margin-left: -3em; }
+        /* line 130, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-150 > * {
+          padding: 0 0 0 3em; }
+        /* line 135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-150.gtr-uniform {
+          margin-top: -3em; }
+          /* line 138, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+          .row.gtr-150.gtr-uniform > * {
+            padding-top: 3em; }
+      /* line 126, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.gtr-200 {
+        margin-top: 0;
+        margin-left: -4em; }
+        /* line 130, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-200 > * {
+          padding: 0 0 0 4em; }
+        /* line 135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-200.gtr-uniform {
+          margin-top: -4em; }
+          /* line 138, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+          .row.gtr-200.gtr-uniform > * {
+            padding-top: 4em; } }
+  @media screen and (max-width: 480px) {
+    /* line 333, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      align-items: stretch; }
+      /* line 49, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > * {
+        box-sizing: border-box; }
+      /* line 56, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.gtr-uniform > * > :last-child {
+        margin-bottom: 0; }
+      /* line 63, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.aln-left {
+        justify-content: flex-start; }
+      /* line 67, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.aln-center {
+        justify-content: center; }
+      /* line 71, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.aln-right {
+        justify-content: flex-end; }
+      /* line 75, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.aln-top {
+        align-items: flex-start; }
+      /* line 79, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.aln-middle {
+        align-items: center; }
+      /* line 83, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.aln-bottom {
+        align-items: flex-end; }
+      /* line 101, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .imp-xsmall {
+        order: -1; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-1-xsmall {
+        width: 8.33333%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-1-xsmall {
+        margin-left: 8.33333%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-2-xsmall {
+        width: 16.66667%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-2-xsmall {
+        margin-left: 16.66667%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-3-xsmall {
+        width: 25%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-3-xsmall {
+        margin-left: 25%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-4-xsmall {
+        width: 33.33333%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-4-xsmall {
+        margin-left: 33.33333%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-5-xsmall {
+        width: 41.66667%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-5-xsmall {
+        margin-left: 41.66667%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-6-xsmall {
+        width: 50%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-6-xsmall {
+        margin-left: 50%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-7-xsmall {
+        width: 58.33333%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-7-xsmall {
+        margin-left: 58.33333%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-8-xsmall {
+        width: 66.66667%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-8-xsmall {
+        margin-left: 66.66667%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-9-xsmall {
+        width: 75%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-9-xsmall {
+        margin-left: 75%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-10-xsmall {
+        width: 83.33333%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-10-xsmall {
+        margin-left: 83.33333%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-11-xsmall {
+        width: 91.66667%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-11-xsmall {
+        margin-left: 91.66667%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-12-xsmall {
+        width: 100%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-12-xsmall {
+        margin-left: 100%; }
+      /* line 126, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.gtr-0 {
+        margin-top: 0;
+        margin-left: 0em; }
+        /* line 130, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-0 > * {
+          padding: 0 0 0 0em; }
+        /* line 135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-0.gtr-uniform {
+          margin-top: 0em; }
+          /* line 138, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+          .row.gtr-0.gtr-uniform > * {
+            padding-top: 0em; }
+      /* line 126, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.gtr-25 {
+        margin-top: 0;
+        margin-left: -0.5em; }
+        /* line 130, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-25 > * {
+          padding: 0 0 0 0.5em; }
+        /* line 135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-25.gtr-uniform {
+          margin-top: -0.5em; }
+          /* line 138, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+          .row.gtr-25.gtr-uniform > * {
+            padding-top: 0.5em; }
+      /* line 126, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.gtr-50 {
+        margin-top: 0;
+        margin-left: -1em; }
+        /* line 130, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-50 > * {
+          padding: 0 0 0 1em; }
+        /* line 135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-50.gtr-uniform {
+          margin-top: -1em; }
+          /* line 138, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+          .row.gtr-50.gtr-uniform > * {
+            padding-top: 1em; }
+      /* line 126, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row {
+        margin-top: 0;
+        margin-left: -2em; }
+        /* line 130, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row > * {
+          padding: 0 0 0 2em; }
+        /* line 135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-uniform {
+          margin-top: -2em; }
+          /* line 138, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+          .row.gtr-uniform > * {
+            padding-top: 2em; }
+      /* line 126, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.gtr-150 {
+        margin-top: 0;
+        margin-left: -3em; }
+        /* line 130, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-150 > * {
+          padding: 0 0 0 3em; }
+        /* line 135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-150.gtr-uniform {
+          margin-top: -3em; }
+          /* line 138, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+          .row.gtr-150.gtr-uniform > * {
+            padding-top: 3em; }
+      /* line 126, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.gtr-200 {
+        margin-top: 0;
+        margin-left: -4em; }
+        /* line 130, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-200 > * {
+          padding: 0 0 0 4em; }
+        /* line 135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-200.gtr-uniform {
+          margin-top: -4em; }
+          /* line 138, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+          .row.gtr-200.gtr-uniform > * {
+            padding-top: 4em; } }
+  @media screen and (max-width: 320px) {
+    /* line 333, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      align-items: stretch; }
+      /* line 49, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > * {
+        box-sizing: border-box; }
+      /* line 56, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.gtr-uniform > * > :last-child {
+        margin-bottom: 0; }
+      /* line 63, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.aln-left {
+        justify-content: flex-start; }
+      /* line 67, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.aln-center {
+        justify-content: center; }
+      /* line 71, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.aln-right {
+        justify-content: flex-end; }
+      /* line 75, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.aln-top {
+        align-items: flex-start; }
+      /* line 79, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.aln-middle {
+        align-items: center; }
+      /* line 83, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.aln-bottom {
+        align-items: flex-end; }
+      /* line 101, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .imp-xxsmall {
+        order: -1; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-1-xxsmall {
+        width: 8.33333%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-1-xxsmall {
+        margin-left: 8.33333%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-2-xxsmall {
+        width: 16.66667%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-2-xxsmall {
+        margin-left: 16.66667%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-3-xxsmall {
+        width: 25%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-3-xxsmall {
+        margin-left: 25%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-4-xxsmall {
+        width: 33.33333%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-4-xxsmall {
+        margin-left: 33.33333%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-5-xxsmall {
+        width: 41.66667%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-5-xxsmall {
+        margin-left: 41.66667%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-6-xxsmall {
+        width: 50%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-6-xxsmall {
+        margin-left: 50%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-7-xxsmall {
+        width: 58.33333%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-7-xxsmall {
+        margin-left: 58.33333%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-8-xxsmall {
+        width: 66.66667%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-8-xxsmall {
+        margin-left: 66.66667%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-9-xxsmall {
+        width: 75%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-9-xxsmall {
+        margin-left: 75%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-10-xxsmall {
+        width: 83.33333%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-10-xxsmall {
+        margin-left: 83.33333%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-11-xxsmall {
+        width: 91.66667%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-11-xxsmall {
+        margin-left: 91.66667%; }
+      /* line 107, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .col-12-xxsmall {
+        width: 100%; }
+      /* line 111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row > .off-12-xxsmall {
+        margin-left: 100%; }
+      /* line 126, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.gtr-0 {
+        margin-top: 0;
+        margin-left: 0em; }
+        /* line 130, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-0 > * {
+          padding: 0 0 0 0em; }
+        /* line 135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-0.gtr-uniform {
+          margin-top: 0em; }
+          /* line 138, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+          .row.gtr-0.gtr-uniform > * {
+            padding-top: 0em; }
+      /* line 126, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.gtr-25 {
+        margin-top: 0;
+        margin-left: -0.5em; }
+        /* line 130, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-25 > * {
+          padding: 0 0 0 0.5em; }
+        /* line 135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-25.gtr-uniform {
+          margin-top: -0.5em; }
+          /* line 138, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+          .row.gtr-25.gtr-uniform > * {
+            padding-top: 0.5em; }
+      /* line 126, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.gtr-50 {
+        margin-top: 0;
+        margin-left: -1em; }
+        /* line 130, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-50 > * {
+          padding: 0 0 0 1em; }
+        /* line 135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-50.gtr-uniform {
+          margin-top: -1em; }
+          /* line 138, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+          .row.gtr-50.gtr-uniform > * {
+            padding-top: 1em; }
+      /* line 126, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row {
+        margin-top: 0;
+        margin-left: -2em; }
+        /* line 130, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row > * {
+          padding: 0 0 0 2em; }
+        /* line 135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-uniform {
+          margin-top: -2em; }
+          /* line 138, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+          .row.gtr-uniform > * {
+            padding-top: 2em; }
+      /* line 126, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.gtr-150 {
+        margin-top: 0;
+        margin-left: -3em; }
+        /* line 130, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-150 > * {
+          padding: 0 0 0 3em; }
+        /* line 135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-150.gtr-uniform {
+          margin-top: -3em; }
+          /* line 138, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+          .row.gtr-150.gtr-uniform > * {
+            padding-top: 3em; }
+      /* line 126, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+      .row.gtr-200 {
+        margin-top: 0;
+        margin-left: -4em; }
+        /* line 130, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-200 > * {
+          padding: 0 0 0 4em; }
+        /* line 135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+        .row.gtr-200.gtr-uniform {
+          margin-top: -4em; }
+          /* line 138, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_html-grid.scss */
+          .row.gtr-200.gtr-uniform > * {
+            padding-top: 4em; } }
+
+/* Section/Article */
+/* line 364, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+section.special, article.special {
+  text-align: center; }
+
+/* line 370, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+header p {
+  color: #999;
+  margin: 0 0 0.75em 0;
+  position: relative; }
+
+/* line 376, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+header h2 + p {
+  font-size: 1.25em;
+  line-height: 1.5em;
+  margin-top: -0.5em; }
+
+/* line 382, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+header h3 + p {
+  font-size: 1.1em;
+  line-height: 1.5em;
+  margin-top: -0.4em; }
+
+/* line 388, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+header h4 + p,
+header h5 + p,
+header h6 + p {
+  font-size: 0.9em;
+  line-height: 1.5em;
+  margin-top: -0.3em; }
+
+/* line 396, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+header.major {
+  margin: 0 0 0.5em 0; }
+  /* line 399, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  header.major:after {
+    background: rgba(144, 144, 144, 0.5);
+    content: '';
+    display: inline-block;
+    height: 1px;
+    margin-top: 0.75em;
+    width: 6em; }
+  /* line 408, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
+    margin: 0; }
+  /* line 412, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  header.major p {
+    margin: 0.35em 0 0 0; }
+
+/* line 417, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+header.special {
+  text-align: center; }
+
+/* Form */
+/* line 424, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+form {
+  margin: 0 0 1em 0; }
+
+/* line 428, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+label {
+  color: #555;
+  display: block;
+  font-size: 0.9em;
+  font-weight: 400;
+  margin: 0 0 0.5em 0; }
+
+/* line 436, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select,
+textarea {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  background: rgba(144, 144, 144, 0.075);
+  border-radius: 4px;
+  border: none;
+  border: solid 1px rgba(144, 144, 144, 0.5);
+  color: inherit;
+  display: block;
+  outline: 0;
+  padding: 0 1em;
+  text-decoration: none;
+  width: 100%; }
+  /* line 453, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  input[type="text"]:invalid,
+  input[type="password"]:invalid,
+  input[type="email"]:invalid,
+  select:invalid,
+  textarea:invalid {
+    box-shadow: none; }
+  /* line 457, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  input[type="text"]:focus,
+  input[type="password"]:focus,
+  input[type="email"]:focus,
+  select:focus,
+  textarea:focus {
+    border-color: #6bd4c8; }
+
+/* line 462, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+select {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='rgba(144, 144, 144, 0.5)' /%3E%3C/svg%3E");
+  background-size: 1.25rem;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 1rem) center;
+  height: 2.75em;
+  padding-right: 2.75em;
+  text-overflow: ellipsis; }
+  /* line 471, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  select option {
+    color: #555;
+    background: #fff; }
+  /* line 477, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  select:focus::-ms-value {
+    background-color: transparent; }
+  /* line 482, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  select::-ms-expand {
+    display: none; }
+
+/* line 487, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+  height: 2.75em; }
+
+/* line 494, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+textarea {
+  padding: 0.75em 1em; }
+
+/* line 498, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  display: block;
+  float: left;
+  margin-right: -2em;
+  opacity: 0;
+  width: 1em;
+  z-index: -1; }
+  /* line 508, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  input[type="checkbox"] + label,
+  input[type="radio"] + label {
+    text-decoration: none;
+    color: #666;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 300;
+    padding-left: 2.4em;
+    padding-right: 0.75em;
+    position: relative; }
+    /* line 8, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_mixins.scss */
+    input[type="checkbox"] + label:before,
+    input[type="radio"] + label:before {
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased;
+      font-family: FontAwesome;
+      font-style: normal;
+      font-weight: normal;
+      text-transform: none !important; }
+    /* line 519, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    input[type="checkbox"] + label:before,
+    input[type="radio"] + label:before {
+      background: rgba(144, 144, 144, 0.075);
+      border-radius: 4px;
+      border: solid 1px rgba(144, 144, 144, 0.5);
+      content: '';
+      display: inline-block;
+      height: 1.65em;
+      left: 0;
+      line-height: 1.58125em;
+      position: absolute;
+      text-align: center;
+      top: 0;
+      width: 1.65em; }
+  /* line 536, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  input[type="checkbox"]:checked + label:before,
+  input[type="radio"]:checked + label:before {
+    background: #666666;
+    border-color: #666666;
+    color: #ffffff;
+    content: '\f00c'; }
+  /* line 545, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  input[type="checkbox"]:focus + label:before,
+  input[type="radio"]:focus + label:before {
+    border-color: #6bd4c8; }
+
+/* line 553, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+input[type="checkbox"] + label:before {
+  border-radius: 4px; }
+
+/* line 561, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+input[type="radio"] + label:before {
+  border-radius: 100%; }
+
+/* line 567, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+::-webkit-input-placeholder {
+  color: #999 !important;
+  opacity: 1.0; }
+
+/* line 572, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+:-moz-placeholder {
+  color: #999 !important;
+  opacity: 1.0; }
+
+/* line 577, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+::-moz-placeholder {
+  color: #999 !important;
+  opacity: 1.0; }
+
+/* line 582, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+:-ms-input-placeholder {
+  color: #999 !important;
+  opacity: 1.0; }
+
+/* Box */
+/* line 589, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+.box {
+  border-radius: 4px;
+  border: solid 1px rgba(144, 144, 144, 0.5);
+  margin-bottom: 1em;
+  padding: 1.5em; }
+  /* line 595, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  .box > :last-child,
+  .box > :last-child > :last-child,
+  .box > :last-child > :last-child > :last-child {
+    margin-bottom: 0; }
+  /* line 601, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  .box.alt {
+    border: 0;
+    border-radius: 0;
+    padding: 0; }
+
+/* Icon */
+/* line 610, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+.icon {
+  text-decoration: none;
+  border-bottom: none;
+  position: relative; }
+  /* line 8, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_mixins.scss */
+  .icon:before {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none !important; }
+  /* line 615, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  .icon > .label {
+    display: none; }
+  /* line 619, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  .icon.style1:before {
+    color: #c3e895; }
+  /* line 620, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  .icon.style2:before {
+    color: #8addaa; }
+  /* line 621, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  .icon.style3:before {
+    color: #6bd4c8; }
+  /* line 622, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  .icon.style4:before {
+    color: #57aed3; }
+  /* line 623, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  .icon.style5:before {
+    color: #4a87d3; }
+  /* line 624, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  .icon.style6:before {
+    color: #6b88e6; }
+  /* line 626, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  .icon.major {
+    text-decoration: none;
+    color: #555;
+    cursor: default;
+    display: inline-block;
+    margin: 0 0 0.75em 0; }
+    /* line 8, /Users/alisaadati/Desktop/html5up-photon/assets/sass/libs/_mixins.scss */
+    .icon.major:before {
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased;
+      font-family: FontAwesome;
+      font-style: normal;
+      font-weight: normal;
+      text-transform: none !important; }
+    /* line 633, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    .icon.major:before {
+      font-size: 4em;
+      line-height: 1em; }
+
+/* Image */
+/* line 642, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+.image {
+  border-radius: 4px;
+  border: 0;
+  display: inline-block;
+  position: relative; }
+  /* line 648, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  .image img {
+    border-radius: 4px;
+    display: block; }
+  /* line 653, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  .image.left {
+    float: left;
+    padding: 0 1.5em 1em 0;
+    top: 0.25em; }
+  /* line 659, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  .image.right {
+    float: right;
+    padding: 0 0 1em 1.5em;
+    top: 0.25em; }
+  /* line 665, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  .image.left, .image.right {
+    max-width: 40%; }
+    /* line 669, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    .image.left img, .image.right img {
+      width: 100%; }
+  /* line 674, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  .image.fit {
+    display: block;
+    margin: 0 0 1em 0;
+    width: 100%; }
+    /* line 679, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    .image.fit img {
+      width: 100%; }
+
+/* List */
+/* line 687, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+ol {
+  list-style: decimal;
+  margin: 0 0 1em 0;
+  padding-left: 1.25em; }
+  /* line 692, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  ol li {
+    padding-left: 0.25em; }
+
+/* line 697, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+ul {
+  list-style: disc;
+  margin: 0 0 1em 0;
+  padding-left: 1em; }
+  /* line 706, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  ul.alt {
+    list-style: none;
+    padding-left: 0; }
+    /* line 710, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    ul.alt li {
+      border-top: solid 1px rgba(144, 144, 144, 0.5);
+      padding: 0.5em 0; }
+      /* line 714, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+      ul.alt li:first-child {
+        border-top: 0;
+        padding-top: 0; }
+
+/* line 722, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+dl {
+  margin: 0 0 1em 0; }
+
+/* Actions */
+/* line 728, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+ul.actions {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  cursor: default;
+  list-style: none;
+  margin-left: -0.5em;
+  padding-left: 0; }
+  /* line 735, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  ul.actions li {
+    padding: 0 0 0 0.5em;
+    vertical-align: middle; }
+  /* line 740, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  ul.actions.special {
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    width: 100%;
+    margin-left: 0; }
+    /* line 746, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    ul.actions.special li:first-child {
+      padding-left: 0; }
+  /* line 752, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  ul.actions.stacked {
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-left: 0; }
+    /* line 756, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    ul.actions.stacked li {
+      padding: 0.65em 0 0 0; }
+      /* line 759, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+      ul.actions.stacked li:first-child {
+        padding-top: 0; }
+  /* line 765, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  ul.actions.fit {
+    width: calc(100% + 0.5em); }
+    /* line 768, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    ul.actions.fit li {
+      -moz-flex-grow: 1;
+      -webkit-flex-grow: 1;
+      -ms-flex-grow: 1;
+      flex-grow: 1;
+      -moz-flex-shrink: 1;
+      -webkit-flex-shrink: 1;
+      -ms-flex-shrink: 1;
+      flex-shrink: 1;
+      width: 100%; }
+      /* line 773, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+      ul.actions.fit li > * {
+        width: 100%; }
+    /* line 778, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    ul.actions.fit.stacked {
+      width: 100%; }
+  @media screen and (max-width: 480px) {
+    /* line 784, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    ul.actions:not(.fixed) {
+      -moz-flex-direction: column;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      margin-left: 0;
+      width: 100% !important; }
+      /* line 789, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+      ul.actions:not(.fixed) li {
+        -moz-flex-grow: 1;
+        -webkit-flex-grow: 1;
+        -ms-flex-grow: 1;
+        flex-grow: 1;
+        -moz-flex-shrink: 1;
+        -webkit-flex-shrink: 1;
+        -ms-flex-shrink: 1;
+        flex-shrink: 1;
+        padding: 0.5em 0 0 0;
+        text-align: center;
+        width: 100%; }
+        /* line 796, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+        ul.actions:not(.fixed) li > * {
+          width: 100%; }
+        /* line 800, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+        ul.actions:not(.fixed) li:first-child {
+          padding-top: 0; }
+        /* line 804, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+        ul.actions:not(.fixed) li input[type="submit"],
+        ul.actions:not(.fixed) li input[type="reset"],
+        ul.actions:not(.fixed) li input[type="button"],
+        ul.actions:not(.fixed) li button,
+        ul.actions:not(.fixed) li .button {
+          width: 100%; }
+          /* line 812, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+          ul.actions:not(.fixed) li input[type="submit"].icon:before,
+          ul.actions:not(.fixed) li input[type="reset"].icon:before,
+          ul.actions:not(.fixed) li input[type="button"].icon:before,
+          ul.actions:not(.fixed) li button.icon:before,
+          ul.actions:not(.fixed) li .button.icon:before {
+            margin-left: -0.5em; } }
+
+/* Icons */
+/* line 824, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+ul.icons {
+  cursor: default;
+  list-style: none;
+  padding-left: 0; }
+  /* line 829, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  ul.icons li {
+    display: inline-block;
+    padding: 0 1.25em 0 0; }
+    /* line 833, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    ul.icons li:last-child {
+      padding-right: 0; }
+    /* line 838, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    ul.icons li .icon:before {
+      font-size: 1.5em; }
+
+/* Major Icons */
+/* line 847, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+ul.major-icons {
+  list-style: none;
+  padding-left: 0; }
+  /* line 851, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  ul.major-icons li {
+    display: inline-block;
+    padding: 2.5em;
+    text-align: center; }
+    /* line 856, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    ul.major-icons li .icon {
+      -moz-transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+      border-radius: 4px;
+      border: solid 1px rgba(144, 144, 144, 0.5);
+      display: inline-block;
+      height: 8em;
+      line-height: 8em;
+      margin: 0;
+      text-align: center;
+      width: 8em; }
+      /* line 867, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+      ul.major-icons li .icon:before {
+        -moz-transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        display: inline-block;
+        line-height: inherit; }
+
+/* line 876, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+ul.major-icons li .icon.contentCDS:before {
+  -moz-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  display: inline-block;
+  line-height: 1.2em;
+  vertical-align: middle;
+  content: "Chocolate Dipped Strawberries";
+  font-size: 120%; }
+
+/* line 887, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+ul.major-icons li .icon.contentCP:before {
+  -moz-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  display: inline-block;
+  line-height: 1.2em;
+  vertical-align: middle;
+  content: "Chocolate Pretzels";
+  font-size: 120%; }
+
+/* line 898, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+ul.major-icons li .icon.contentSSC:before {
+  -moz-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  display: inline-block;
+  line-height: 1.2em;
+  vertical-align: middle;
+  content: "Sugar Swirl Cookies";
+  font-size: 120%; }
+
+/* line 909, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+ul.major-icons li .icon.contentCCC:before {
+  -moz-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  display: inline-block;
+  line-height: 1.2em;
+  vertical-align: middle;
+  content: "Chocolate Chip Cookies";
+  font-size: 120%; }
+
+/* line 920, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+ul.major-icons li .icon.contentCC:before {
+  -moz-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  display: inline-block;
+  line-height: 1.2em;
+  vertical-align: middle;
+  content: "Crinkle Cookies";
+  font-size: 120%; }
+
+/* line 931, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+ul.major-icons li .icon.contentSK:before {
+  -moz-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  display: inline-block;
+  line-height: 1.2em;
+  vertical-align: middle;
+  content: "Snickerdoodle Kisses";
+  font-size: 120%; }
+
+/* Table */
+/* line 944, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+.table-wrapper {
+  -webkit-overflow-scrolling: touch;
+  overflow-x: auto; }
+
+/* line 949, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+table {
+  margin: 0 0 1em 0;
+  width: 100%; }
+  /* line 954, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  table tbody tr {
+    border-left: 0;
+    border-right: 0; }
+    /* line 958, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    table tbody tr:nth-child(2n + 1) {
+      background-color: rgba(144, 144, 144, 0.075); }
+  /* line 964, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  table td {
+    padding: 0.75em 0.75em; }
+  /* line 968, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  table th {
+    color: #555;
+    font-size: 0.9em;
+    font-weight: 400;
+    padding: 0 0.75em 0.75em 0.75em;
+    text-align: left; }
+  /* line 976, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  table thead {
+    border-bottom: solid 1px rgba(144, 144, 144, 0.5); }
+  /* line 980, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  table tfoot {
+    border-top: solid 1px rgba(144, 144, 144, 0.5); }
+  /* line 984, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  table.alt {
+    border-collapse: separate; }
+    /* line 989, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    table.alt tbody tr td {
+      border: solid 1px rgba(144, 144, 144, 0.5);
+      border-left-width: 0;
+      border-top-width: 0; }
+      /* line 994, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+      table.alt tbody tr td:first-child {
+        border-left-width: 1px; }
+    /* line 1000, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    table.alt tbody tr:first-child td {
+      border-top-width: 1px; }
+    /* line 1007, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    table.alt thead {
+      border-bottom: 0; }
+    /* line 1011, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    table.alt tfoot {
+      border-top: 0; }
+
+/* Button */
+/* line 1019, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button,
+.button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 0;
+  box-shadow: inset 0 0 0 1px rgba(144, 144, 144, 0.5);
+  color: #555 !important;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.9em;
+  font-weight: 400;
+  height: 2.75em;
+  letter-spacing: 0.125em;
+  line-height: 2.75em;
+  padding: 0 2em;
+  text-align: center;
+  text-decoration: none;
+  text-indent: 0.125em;
+  text-transform: uppercase;
+  white-space: nowrap; }
+  /* line 1045, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  input[type="submit"]:hover,
+  input[type="reset"]:hover,
+  input[type="button"]:hover,
+  button:hover,
+  .button:hover {
+    background-color: rgba(144, 144, 144, 0.075); }
+  /* line 1049, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  input[type="submit"]:active,
+  input[type="reset"]:active,
+  input[type="button"]:active,
+  button:active,
+  .button:active {
+    background-color: rgba(144, 144, 144, 0.2); }
+  /* line 1054, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  input[type="submit"].icon:before,
+  input[type="reset"].icon:before,
+  input[type="button"].icon:before,
+  button.icon:before,
+  .button.icon:before {
+    margin-right: 0.5em; }
+  /* line 1059, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  input[type="submit"].fit,
+  input[type="reset"].fit,
+  input[type="button"].fit,
+  button.fit,
+  .button.fit {
+    height: 50%;
+    width: 50%; }
+  /* line 1064, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  input[type="submit"].small,
+  input[type="reset"].small,
+  input[type="button"].small,
+  button.small,
+  .button.small {
+    font-size: 0.7em; }
+  /* line 1068, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  input[type="submit"].large,
+  input[type="reset"].large,
+  input[type="button"].large,
+  button.large,
+  .button.large {
+    font-size: 1.25em; }
+  /* line 1072, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  input[type="submit"].wide,
+  input[type="reset"].wide,
+  input[type="button"].wide,
+  button.wide,
+  .button.wide {
+    min-width: 12em; }
+  /* line 1076, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  input[type="submit"].primary,
+  input[type="reset"].primary,
+  input[type="button"].primary,
+  button.primary,
+  .button.primary {
+    background-color: #555;
+    box-shadow: none !important;
+    color: #fff !important; }
+    /* line 1081, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    input[type="submit"].primary:hover,
+    input[type="reset"].primary:hover,
+    input[type="button"].primary:hover,
+    button.primary:hover,
+    .button.primary:hover {
+      background-color: #626262; }
+    /* line 1085, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    input[type="submit"].primary:active,
+    input[type="reset"].primary:active,
+    input[type="button"].primary:active,
+    button.primary:active,
+    .button.primary:active {
+      background-color: #484848; }
+  /* line 1090, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  input[type="submit"].disabled, input[type="submit"]:disabled,
+  input[type="reset"].disabled,
+  input[type="reset"]:disabled,
+  input[type="button"].disabled,
+  input[type="button"]:disabled,
+  button.disabled,
+  button:disabled,
+  .button.disabled,
+  .button:disabled {
+    cursor: default;
+    opacity: 0.25; }
+
+/* Main */
+/* line 1178, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+.main {
+  padding: 6em 0 5em 0 ; }
+  /* line 1181, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  .main.style1 {
+    background: #fff; }
+  /* line 1185, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  .main.style2 {
+    background-color: #333;
+    color: rgba(255, 255, 255, 0.75);
+    background-attachment: fixed,							fixed;
+    background-image: url("../css/images/overlay1.png"), url("../css/images/birthday-translucent.png");
+    background-size: cover,							cover; }
+    /* line 1103, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    .main.style2 a {
+      border-bottom-color: rgba(255, 255, 255, 0.5); }
+      /* line 1106, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+      .main.style2 a:hover {
+        color: #ffffff; }
+    /* line 1111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    .main.style2 h1, .main.style2 h2, .main.style2 h3, .main.style2 h4, .main.style2 h5, .main.style2 h6, .main.style2 strong, .main.style2 b {
+      color: #ffffff; }
+    /* line 1116, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    .main.style2 header p {
+      color: #ffffff; }
+    /* line 1121, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    .main.style2 header.major:after {
+      background: #ffffff; }
+    /* line 1127, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    .main.style2 input[type="submit"],
+    .main.style2 input[type="reset"],
+    .main.style2 input[type="button"],
+    .main.style2 button,
+    .main.style2 .button {
+      box-shadow: inset 0 0 0 1px #ffffff;
+      color: #ffffff !important; }
+      /* line 1135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+      .main.style2 input[type="submit"]:hover,
+      .main.style2 input[type="reset"]:hover,
+      .main.style2 input[type="button"]:hover,
+      .main.style2 button:hover,
+      .main.style2 .button:hover {
+        background-color: rgba(255, 255, 255, 0.125); }
+      /* line 1139, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+      .main.style2 input[type="submit"]:active,
+      .main.style2 input[type="reset"]:active,
+      .main.style2 input[type="button"]:active,
+      .main.style2 button:active,
+      .main.style2 .button:active {
+        background-color: rgba(255, 255, 255, 0.25); }
+      /* line 1143, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+      .main.style2 input[type="submit"].primary,
+      .main.style2 input[type="reset"].primary,
+      .main.style2 input[type="button"].primary,
+      .main.style2 button.primary,
+      .main.style2 .button.primary {
+        background-color: #ffffff;
+        box-shadow: inset 0 0 0 1px #ffffff !important;
+        color: #333 !important; }
+        /* line 1148, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+        .main.style2 input[type="submit"].primary:hover,
+        .main.style2 input[type="reset"].primary:hover,
+        .main.style2 input[type="button"].primary:hover,
+        .main.style2 button.primary:hover,
+        .main.style2 .button.primary:hover {
+          background-color: rgba(255, 255, 255, 0.125) !important;
+          color: #ffffff !important; }
+        /* line 1153, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+        .main.style2 input[type="submit"].primary:active,
+        .main.style2 input[type="reset"].primary:active,
+        .main.style2 input[type="button"].primary:active,
+        .main.style2 button.primary:active,
+        .main.style2 .button.primary:active {
+          background-color: rgba(255, 255, 255, 0.25) !important; }
+    /* line 1162, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    .main.style2 ul.major-icons li .icon {
+      border-color: #ffffff; }
+    /* line 1170, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    .main.style2 .icon.major {
+      color: #ffffff; }
+
+/* Header */
+/* line 1195, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+#header {
+  padding: 9em 0 9em 0 ;
+  background-color: #4686a0;
+  color: rgba(255, 255, 255, 0.75);
+  background-attachment: fixed,							fixed,							fixed;
+  background-image: url("../css/images/overlay1.png"), url("../css/images/birthday-translucent.png"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
+  background-position: top left,						center center,					center center;
+  background-size: auto,							cover,							cover;
+  overflow: hidden;
+  position: relative;
+  text-align: center; }
+  /* line 1103, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  #header a {
+    border-bottom-color: rgba(255, 255, 255, 0.5); }
+    /* line 1106, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    #header a:hover {
+      color: #ffffff; }
+  /* line 1111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  #header h1, #header h2, #header h3, #header h4, #header h5, #header h6, #header strong, #header b {
+    color: #ffffff; }
+  /* line 1116, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  #header header p {
+    color: #ffffff; }
+  /* line 1121, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  #header header.major:after {
+    background: #ffffff; }
+  /* line 1127, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  #header input[type="submit"],
+  #header input[type="reset"],
+  #header input[type="button"],
+  #header button,
+  #header .button {
+    box-shadow: inset 0 0 0 1px #ffffff;
+    color: #ffffff !important; }
+    /* line 1135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    #header input[type="submit"]:hover,
+    #header input[type="reset"]:hover,
+    #header input[type="button"]:hover,
+    #header button:hover,
+    #header .button:hover {
+      background-color: rgba(255, 255, 255, 0.125); }
+    /* line 1139, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    #header input[type="submit"]:active,
+    #header input[type="reset"]:active,
+    #header input[type="button"]:active,
+    #header button:active,
+    #header .button:active {
+      background-color: rgba(255, 255, 255, 0.25); }
+    /* line 1143, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    #header input[type="submit"].primary,
+    #header input[type="reset"].primary,
+    #header input[type="button"].primary,
+    #header button.primary,
+    #header .button.primary {
+      background-color: #ffffff;
+      box-shadow: inset 0 0 0 1px #ffffff !important;
+      color: #4686a0 !important; }
+      /* line 1148, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+      #header input[type="submit"].primary:hover,
+      #header input[type="reset"].primary:hover,
+      #header input[type="button"].primary:hover,
+      #header button.primary:hover,
+      #header .button.primary:hover {
+        background-color: rgba(255, 255, 255, 0.125) !important;
+        color: #ffffff !important; }
+      /* line 1153, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+      #header input[type="submit"].primary:active,
+      #header input[type="reset"].primary:active,
+      #header input[type="button"].primary:active,
+      #header button.primary:active,
+      #header .button.primary:active {
+        background-color: rgba(255, 255, 255, 0.25) !important; }
+  /* line 1162, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  #header ul.major-icons li .icon {
+    border-color: #ffffff; }
+  /* line 1170, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  #header .icon.major {
+    color: #ffffff; }
+  /* line 1206, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  #header h1 {
+    margin: 0;
+    font-family: "arizonia";
+    font-size: 7em;
+    line-height: 1em; }
+  /* line 1213, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  #header p {
+    margin: 0.5em 0 0 0;
+    font-family: "montserrat"; }
+  /* line 1218, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  #header .actions {
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    margin-top: 1.25em;
+    margin-left: 0;
+    position: relative; }
+    /* line 1225, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    #header .actions li:first-child {
+      padding-left: 0; }
+    /* line 1230, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    #header .actions:after {
+      background: #ffffff;
+      content: '';
+      height: 100vh;
+      left: 50%;
+      position: absolute;
+      top: 100%;
+      width: 1px; }
+  /* line 1241, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  #header .inner {
+    -moz-transition: -moz-transform 1.5s ease, opacity 2s ease;
+    -webkit-transition: -webkit-transform 1.5s ease, opacity 2s ease;
+    -ms-transition: -ms-transform 1.5s ease, opacity 2s ease;
+    transition: transform 1.5s ease, opacity 2s ease;
+    -moz-transition-delay: 0.25s;
+    -webkit-transition-delay: 0.25s;
+    -ms-transition-delay: 0.25s;
+    transition-delay: 0.25s;
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    position: relative;
+    z-index: 0; }
+    /* line 1249, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    #header .inner .actions {
+      -moz-transition: -moz-transform 1.25s ease;
+      -webkit-transition: -webkit-transform 1.25s ease;
+      -ms-transition: -ms-transform 1.25s ease;
+      transition: transform 1.25s ease;
+      -moz-transition-delay: 1s;
+      -webkit-transition-delay: 1s;
+      -ms-transition-delay: 1s;
+      transition-delay: 1s;
+      -moz-transform: translateY(0);
+      -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+      transform: translateY(0); }
+  /* line 1257, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  #header:after {
+    -moz-transition: opacity 1s ease;
+    -webkit-transition: opacity 1s ease;
+    -ms-transition: opacity 1s ease;
+    transition: opacity 1s ease;
+    background-image: linear-gradient(180deg, #4fa49a, #4361c2);
+    content: '';
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%; }
+
+/* line 1272, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+body.is-preload #header .inner {
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  opacity: 0; }
+  /* line 1276, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  body.is-preload #header .inner .actions {
+    -moz-transform: translateY(30em);
+    -webkit-transform: translateY(30em);
+    -ms-transform: translateY(30em);
+    transform: translateY(30em);
+    opacity: 0; }
+
+/* line 1282, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+body.is-preload #header:after {
+  opacity: 1; }
+
+/* Footer */
+/* line 1290, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+#footer {
+  padding: 6em 0 6em 0 ;
+  background-color: #4686a0;
+  color: rgba(255, 255, 255, 0.75);
+  background-attachment: fixed,							fixed,							fixed;
+  background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
+  background-position: top left,						center center,					center center;
+  background-size: auto,							cover,							cover;
+  text-align: center; }
+  /* line 1103, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  #footer a {
+    border-bottom-color: rgba(255, 255, 255, 0.5); }
+    /* line 1106, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    #footer a:hover {
+      color: #ffffff; }
+  /* line 1111, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  #footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b {
+    color: #ffffff; }
+  /* line 1116, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  #footer header p {
+    color: #ffffff; }
+  /* line 1121, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  #footer header.major:after {
+    background: #ffffff; }
+  /* line 1127, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  #footer input[type="submit"],
+  #footer input[type="reset"],
+  #footer input[type="button"],
+  #footer button,
+  #footer .button {
+    box-shadow: inset 0 0 0 1px #ffffff;
+    color: #ffffff !important; }
+    /* line 1135, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    #footer input[type="submit"]:hover,
+    #footer input[type="reset"]:hover,
+    #footer input[type="button"]:hover,
+    #footer button:hover,
+    #footer .button:hover {
+      background-color: rgba(255, 255, 255, 0.125); }
+    /* line 1139, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    #footer input[type="submit"]:active,
+    #footer input[type="reset"]:active,
+    #footer input[type="button"]:active,
+    #footer button:active,
+    #footer .button:active {
+      background-color: rgba(255, 255, 255, 0.25); }
+    /* line 1143, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    #footer input[type="submit"].primary,
+    #footer input[type="reset"].primary,
+    #footer input[type="button"].primary,
+    #footer button.primary,
+    #footer .button.primary {
+      background-color: #ffffff;
+      box-shadow: inset 0 0 0 1px #ffffff !important;
+      color: #4686a0 !important; }
+      /* line 1148, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+      #footer input[type="submit"].primary:hover,
+      #footer input[type="reset"].primary:hover,
+      #footer input[type="button"].primary:hover,
+      #footer button.primary:hover,
+      #footer .button.primary:hover {
+        background-color: rgba(255, 255, 255, 0.125) !important;
+        color: #ffffff !important; }
+      /* line 1153, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+      #footer input[type="submit"].primary:active,
+      #footer input[type="reset"].primary:active,
+      #footer input[type="button"].primary:active,
+      #footer button.primary:active,
+      #footer .button.primary:active {
+        background-color: rgba(255, 255, 255, 0.25) !important; }
+  /* line 1162, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  #footer ul.major-icons li .icon {
+    border-color: #ffffff; }
+  /* line 1170, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  #footer .icon.major {
+    color: #ffffff; }
+  /* line 1299, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  #footer .icons {
+    margin: 0; }
+  /* line 1303, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  #footer .copyright {
+    font-size: 0.8em;
+    list-style: none;
+    margin: 1em 0 0 0;
+    padding: 0; }
+    /* line 1309, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    #footer .copyright li {
+      border-left: solid 1px;
+      display: inline-block;
+      line-height: 1em;
+      margin-left: 1em;
+      padding: 0 0 0 1em; }
+      /* line 1316, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+      #footer .copyright li:first-child {
+        border-left: 0;
+        margin-left: 0;
+        padding: 0; }
+
+/* XLarge */
+@media screen and (max-width: 1680px) {
+  /* Basic */
+  /* line 1331, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  body, input, select, textarea {
+    font-size: 14pt; }
+  /* Header */
+  /* line 1337, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  #header {
+    padding: 6em 3em 6em 3em ; } }
+
+/* Large */
+@media screen and (max-width: 1140px) {
+  /* Basic */
+  /* line 1349, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  body, input, select, textarea {
+    font-size: 13pt; }
+  /* line 1354, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
+    display: none; }
+  /* List */
+  /* line 1363, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  ul.major-icons li {
+    padding: 2em; }
+    /* line 1366, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    ul.major-icons li .icon {
+      height: 8em;
+      line-height: 8em;
+      width: 8em; }
+  /* Main */
+  /* line 1377, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  .main {
+    padding: 4em 0 3em 0 ; }
+    /* line 1380, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    .main.style2 {
+      background-attachment: scroll; }
+  /* Header */
+  /* line 1387, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  #header {
+    padding: 5em 5em 5em 5em ;
+    background-attachment: scroll; }
+    /* line 1391, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    #header br {
+      display: inline; }
+  /* Footer */
+  /* line 1398, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  #footer {
+    padding: 4em 0 4em 0 ;
+    background-attachment: scroll; } }
+
+/* Medium */
+@media screen and (max-width: 980px) {
+  /* List */
+  /* line 1413, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  ul.major-icons li {
+    padding: 2em; }
+    /* line 1416, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    ul.major-icons li .icon {
+      height: 7em;
+      line-height: 7em;
+      width: 7em; }
+  /* Main */
+  /* line 1427, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  .main {
+    padding: 5em 3em 4em 3em ; }
+  /* Header */
+  /* line 1433, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  #header {
+    padding: 8em 3em 8em 3em ; }
+  /* Footer */
+  /* line 1439, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  #footer {
+    padding: 5em 3em 5em 3em ; }
+  /* One */
+  /* line 1445, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  #one {
+    text-align: left; }
+  /* Two */
+  /* line 1451, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  #two {
+    text-align: center; } }
+
+/* Small */
+@media screen and (max-width: 736px) {
+  /* Basic */
+  /* line 1463, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  body, input, select, textarea {
+    font-size: 12pt; }
+  /* line 1467, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  h1 {
+    font-size: 1.75em; }
+  /* line 1471, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  h2 {
+    font-size: 1.5em; }
+  /* line 1475, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  h3 {
+    font-size: 1.1em; }
+  /* line 1479, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  h4 {
+    font-size: 1em; }
+  /* List */
+  /* line 1487, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  ul.major-icons li {
+    padding: 1.5em; }
+    /* line 1490, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    ul.major-icons li .icon {
+      height: 5em;
+      line-height: 5em;
+      width: 5em; }
+      /* line 1495, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+      ul.major-icons li .icon:before {
+        font-size: 42px; }
+  /* Icon */
+  /* line 1506, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  .icon.major {
+    margin: 0 0 0.5em 0; }
+  /* Button */
+  /* line 1513, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  input[type="submit"],
+  input[type="reset"],
+  input[type="button"],
+  button,
+  .button {
+    height: 3em;
+    line-height: 3em; }
+  /* Main */
+  /* line 1524, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  .main {
+    padding: 3em 1.5em 2em 1.5em ; }
+  /* Header */
+  /* line 1530, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  #header {
+    padding: 4em 3em 4em 3em ; }
+    /* line 1533, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    #header .actions {
+      margin: 1em 0 0 0; }
+  /* Footer */
+  /* line 1540, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  #footer {
+    padding: 3em 1.5em 3em 1.5em ; } }
+
+/* XSmall */
+@media screen and (max-width: 480px) {
+  /* Button */
+  /* line 1552, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  input[type="submit"],
+  input[type="reset"],
+  input[type="button"],
+  .button {
+    padding: 0; }
+  /* Main */
+  /* line 1561, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  .main {
+    padding: 2em 1.5em 1em 1.5em ; }
+  /* Header */
+  /* line 1567, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  #header {
+    padding: 4em 2em 4em 2em ; }
+    /* line 1570, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    #header br {
+      display: none; }
+  /* Footer */
+  /* line 1577, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  #footer {
+    padding: 2em 1.5em 2em 1.5em ; }
+    /* line 1580, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    #footer .copyright {
+      margin: 0.75em 0 0 0; }
+      /* line 1583, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+      #footer .copyright li {
+        border: 0;
+        display: block;
+        margin: 1em 0 0 0;
+        padding: 0; }
+        /* line 1589, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+        #footer .copyright li:first-child {
+          margin-top: 0; } }
+
+/* XXSmall */
+@media screen and (max-width: 320px) {
+  /* Basic */
+  /* line 1604, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  html, body {
+    min-width: 320px; }
+  /* Main */
+  /* line 1610, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  .main {
+    padding: 2em 1em 1em 1em ; }
+  /* Header */
+  /* line 1616, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  #header {
+    padding: 3em 1em 3em 1em ; }
+  /* Footer */
+  /* line 1622, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  #footer {
+    padding: 2em 1em 2em 1em ; } }
+
+/*** Burger Menu ***/
+/* line 1637, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+nav {
+  float: right; }
+  /* line 1639, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block; }
+    /* line 1644, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    nav ul li {
+      float: left;
+      position: relative; }
+      /* line 1647, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+      nav ul li a {
+        display: block;
+        padding: 0 20px;
+        line-height: 60px;
+        background: #987284;
+        color: #ffffff;
+        text-decoration: none; }
+        /* line 1654, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+        nav ul li a:hover {
+          background: #AA9FB1;
+          color: #ffffff; }
+        /* line 1658, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+        nav ul li a:not(:only-child):after {
+          padding-left: 4px;
+          content: ' ▾'; }
+      /* line 1663, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+      nav ul li ul li {
+        min-width: 190px; }
+        /* line 1665, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+        nav ul li ul li a {
+          padding: 15px;
+          line-height: 20px;
+          z-index: 1; }
+
+/* line 1675, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+.nav-mobile {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #987284;
+  height: 60px;
+  width: 60px; }
+
+/* line 1685, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+#nav-toggle {
+  position: absolute;
+  left: 10px;
+  top: 18px;
+  cursor: pointer;
+  padding: 10px 35px 16px 0px; }
+  /* line 1691, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  #nav-toggle span,
+  #nav-toggle span:before,
+  #nav-toggle span:after {
+    cursor: pointer;
+    border-radius: 1px;
+    height: 5px;
+    width: 35px;
+    background: #ffffff;
+    position: absolute;
+    display: block;
+    content: '';
+    transition: all 300ms ease-in-out; }
+  /* line 1704, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  #nav-toggle span:before {
+    top: -10px; }
+  /* line 1707, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  #nav-toggle span:after {
+    bottom: -10px; }
+  /* line 1710, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  #nav-toggle.active span {
+    background-color: transparent; }
+    /* line 1712, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    #nav-toggle.active span:before, #nav-toggle.active span:after {
+      top: 0; }
+    /* line 1716, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    #nav-toggle.active span:before {
+      transform: rotate(45deg); }
+    /* line 1719, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    #nav-toggle.active span:after {
+      transform: rotate(-45deg); }
+
+@media only screen and (max-width: 800px) {
+  /* line 1726, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  .nav-mobile {
+    display: block; }
+  /* line 1729, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  nav {
+    width: 100%;
+    padding: 60px 0 15px; }
+    /* line 1732, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+    nav ul {
+      display: none; }
+      /* line 1734, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+      nav ul li {
+        float: none; }
+        /* line 1736, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+        nav ul li a {
+          padding: 15px;
+          line-height: 20px; }
+        /* line 1740, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+        nav ul li ul li a {
+          padding-left: 30px; }
+  /*** nav submenu dropdown in burger mode ***/
+  /* line 1749, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  #myTopnav ul > li ul.open {
+    max-height: 1000px;
+    -webkit-transform: perspective(400) rotate3d(0, 0, 0, 0); }
+  /* line 1753, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  #myTopnav li ul {
+    position: static;
+    left: 0;
+    top: 60px;
+    z-index: 1;
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transform: perspective(400) rotate3d(1, 0, 0, -90deg);
+    -webkit-transform-origin: 50% 0;
+    -webkit-transition: 350ms;
+    -moz-transition: 350ms;
+    -o-transition: 350ms;
+    transition: 0ms; }
+  /*** END nav animation ***/ }
+
+@media screen and (min-width: 800px) {
+  /* line 1771, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  #myTopnav ul {
+    display: block !important; }
+  /*** nav animation ***/
+  /* line 1776, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  #myTopnav ul > li:hover ul {
+    max-height: 1000px;
+    -webkit-transform: perspective(400) rotate3d(0, 0, 0, 0); }
+  /* line 1780, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  #myTopnav li ul {
+    position: absolute;
+    left: 0;
+    top: 60px;
+    z-index: 1;
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transform: perspective(400) rotate3d(1, 0, 0, -90deg);
+    -webkit-transform-origin: 50% 0;
+    -webkit-transition: 350ms;
+    -moz-transition: 350ms;
+    -o-transition: 350ms;
+    transition: 350ms; }
+  /*** END nav animation ***/ }
+
+/* line 1797, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+.navigation {
+  height: 60px;
+  background: #987284; }
+
+/* line 1802, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+.nav-container {
+  max-width: 1000px;
+  margin: 0 auto; }
+
+/* line 1807, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+.brand {
+  position: absolute;
+  padding-left: 20px;
+  float: left;
+  line-height: 60px;
+  text-transform: uppercase;
+  font-size: 1.4em; }
+  /* line 1814, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+  .brand a,
+  .brand a:visited {
+    color: #ffffff;
+    text-decoration: none; }
+
+/*** END Burger Menu ***/
+/* Packages Page */
+/* line 1826, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+ul#package-list > li {
+  list-style: none;
+  text-align: left;
+  line-height: 25px;
+  font-family: "montserrat"; }
+
+/* line 1833, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+ul#package-list ul li {
+  margin: 0;
+  padding: 5px 40px;
+  list-style: none;
+  background-image: url("../../images/bullet-cupcake.jpeg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 30px;
+  font-family: "montserrat"; }
+
+/* line 1845, /Users/alisaadati/Desktop/html5up-photon/assets/sass/main.scss */
+ul#package-list li:first-of-type {
+  list-style: none;
+  background-image: none;
+  font-family: "antic slab";
+  padding-bottom: 10px; }
+
+/*# sourceMappingURL=main.css.map */
