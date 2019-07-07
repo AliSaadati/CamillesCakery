@@ -8,44 +8,33 @@
     <link rel="stylesheet" href="assets/sass/main.css" />
     <noscript>
         <link rel="stylesheet" href="assets/css/noscript.css" /> </noscript>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
-    
-    <link href="https://fonts.googleapis.com/css?family=Antic+Slab|Arbutus+Slab&display=swap" rel="stylesheet"></head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Antic+Slab|Arbutus+Slab&display=swap" rel="stylesheet">
+</head>
 
 <body class="is-preload">
-   <section class="navigation">
-  <div class="nav-container">
-    <div class="brand">
-      <a href="#!">Logo</a>
-    </div>
-   		<nav class="nav topnav" id="myTopnav">
-            <div class="nav-mobile">
-              <a id="nav-toggle" href="#!"><span></span></a>
-            </div>
-			<ul class="nav-list">
-				<li>
-					<a href="index.html">Home</a>
-				</li>
-				<li>
-					<a href="packages.html">Packages</a>
-				</li>
-				<li class="nav-dropdown">
-					<a href="">Products</a>
-					<ul>
-                        <li><a href="cupcakes.html">Cupcakes</a></li>
-                        <li><a href="cakes.html">Cakes</a></li>
-                        <li><a href="cookies.html">Cookies</a></li>
-                        <li><a href="cakepops.html">Cakepops</a></li>
-                        <li><a href="other.html">Other Sweets</a></li>
-					</ul>
-				</li>
-				<li>
-					<a href="mailto:CamzCakery@gmail.com">Contact Me</a>
-                </li>
-			</ul>
-		</nav>
-       </div>
-        </section>
+    <section class="navigation">
+        <div class="nav-container">
+            <div class="brand"> <a href="#!">CC</a> </div>
+            <nav class="nav topnav" id="myTopnav">
+                <div class="nav-mobile"> <a id="nav-toggle" href="#!"><span></span></a> </div>
+                <ul class="nav-list">
+                    <li> <a href="index.html">Home</a> </li>
+                    <li> <a href="packages.html">Packages</a> </li>
+                    <li class="nav-dropdown"> <a>Products</a>
+                        <ul>
+                            <li><a href="cupcakes.html">Cupcakes</a></li>
+                            <li><a href="cakes.html">Cakes</a></li>
+                            <li><a href="cookies.html">Cookies</a></li>
+                            <li><a href="cakepops.html">Cakepops</a></li>
+                            <li><a href="other.html">Other Sweets</a></li>
+                        </ul>
+                    </li>
+                    <li> <a href="mailto:CamzCakery@gmail.com">Contact Me</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
     <!-- Header -->
     <section id="header">
         <div class="inner">
@@ -91,7 +80,7 @@
                             <li>2 dozens cupcakes or 3 dozens mini cupcakes</li>
                             <li>2 dozens cake pops</li>
                             <li>2 dozens pretzel rods dipped in chocolate</li>
-                            <li>2 dozens swirl cookies</li> 
+                            <li>2 dozens swirl cookies</li>
                             <li>18 chocolate dipped strawberries</li>
                         </ul>
                         <li>Add-On options:</li>
@@ -101,7 +90,8 @@
                         <li>$18 for additional dozen of pretzel rods dipped in chocolate on any package ordered</li>
                         <li>$15 for additional dozen of cookies on any package ordered</li>
                         <li>$25 for additional dozen chocolate dipped strawberries on any package ordered</li>
-                        <li><br>*Prices will vary on any customized orders</li>
+                        <li>
+                            <br>*Prices will vary on any customized orders</li>
                     </ul>
                 </div>
                 <div class="col-6 col-12-medium imp-medium"> </div>
@@ -116,29 +106,23 @@
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
     <script>
-        
-(function($) {
-
-    /*** sub nav bar menu ***/
-  document.querySelector('.nav-dropdown').addEventListener('click', function() {
-    if ($(window).width() <= 600) 
-        $(this).children('ul')[0].classList.toggle('open');
-  });
-    
-    /*** resize window actions ***/
-        $(window).resize(function(){
-        document.querySelector('.nav-dropdown ul').classList.remove('open');
-    });
-    
-    /*** hamburger ***/
-  document.querySelector('#nav-toggle').addEventListener('click', function() {
-    this.classList.toggle('active');
-  });
-  $('#nav-toggle').click(function() {
-    $('nav ul').toggle();
-  });
-
-})(jQuery);
+        (function ($) {
+            /*** sub nav bar menu ***/
+            document.querySelector('.nav-dropdown').addEventListener('click', function () {
+                if ($(window).width() <= 600) $(this).children('ul')[0].classList.toggle('open');
+            });
+            /*** resize window actions ***/
+            $(window).resize(function () {
+                document.querySelector('.nav-dropdown ul').classList.remove('open');
+            });
+            /*** hamburger ***/
+            document.querySelector('#nav-toggle').addEventListener('click', function () {
+                this.classList.toggle('active');
+            });
+            $('#nav-toggle').click(function () {
+                $('nav ul').toggle();
+            });
+        })(jQuery);
     </script>
 </body>
 
