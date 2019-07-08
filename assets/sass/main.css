@@ -3060,8 +3060,9 @@ nav {
   float: left;
   line-height: 60px;
   text-transform: uppercase;
+  font-family: arizonia;
   font-size: 1.4em; }
-  /* line 1817, /Users/Ali/Sites/Camille/CamillesCakery/assets/sass/main.scss */
+  /* line 1818, /Users/Ali/Sites/Camille/CamillesCakery/assets/sass/main.scss */
   .brand a,
   .brand a:visited {
     color: #ffffff;
@@ -3069,14 +3070,14 @@ nav {
 
 /*** END Burger Menu ***/
 /* Packages Page */
-/* line 1829, /Users/Ali/Sites/Camille/CamillesCakery/assets/sass/main.scss */
+/* line 1830, /Users/Ali/Sites/Camille/CamillesCakery/assets/sass/main.scss */
 ul#package-list > li {
   list-style: none;
   text-align: left;
   line-height: 25px;
   font-family: "montserrat"; }
 
-/* line 1836, /Users/Ali/Sites/Camille/CamillesCakery/assets/sass/main.scss */
+/* line 1837, /Users/Ali/Sites/Camille/CamillesCakery/assets/sass/main.scss */
 ul#package-list ul li {
   margin: 0;
   padding: 5px 40px;
@@ -3087,7 +3088,7 @@ ul#package-list ul li {
   background-size: 30px;
   font-family: "montserrat"; }
 
-/* line 1848, /Users/Ali/Sites/Camille/CamillesCakery/assets/sass/main.scss */
+/* line 1849, /Users/Ali/Sites/Camille/CamillesCakery/assets/sass/main.scss */
 ul#package-list li:first-of-type {
   list-style: none;
   background-image: none;
